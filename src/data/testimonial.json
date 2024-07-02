@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/img/avatar/am.jpg",
+    "ratings": "(4.8/5)",
+    "title": "Exceeded Expectations!",
+    "description": "Our experience with this real estate company was outstanding. They guided us every step of the way and helped us find our dream home in Dubai. Highly recommend!",
+    "name": "Ali Khan",
+    "mention": "@alikhan",
+    "icon": ""
+  },
+  {
+    "id": 2,
+    "img": "/assets/img/avatar/rw.jpg",
+    "ratings": "(4.8/5)",
+    "title": "Impressive Service!",
+    "description": "We were impressed by the professionalism and dedication of the team. They understood our requirements perfectly and found us a perfect property. Thank you!",
+    "name": "Natalia Ivanova",
+    "mention": "@nivanova",
+    "icon": ""
+  },
+  {
+    "id": 3,
+    "img": "/assets/img/avatar/arb.jpg",
+    "ratings": "(4.8/5)",
+    "title": "Exceptional Assistance!",
+    "description": "Working with this company was a pleasure. They provided exceptional assistance throughout the process and helped us secure our ideal investment property.",
+    "name": "Ahmed Mahmoud",
+    "mention": "@ahmedmahmoud",
+    "icon": ""
+  },
+  {
+    "id": 4,
+    "img": "/assets/img/avatar/arw.jpg",
+    "ratings": "(4.8/5)",
+    "title": "Highly Recommend!",
+    "description": "I highly recommend this real estate firm. Their expertise and knowledge of the Dubai market are unmatched. They made the buying process smooth and hassle-free.",
+    "name": "Olga Petrovna",
+    "mention": "@olgapetrovna",
+    "icon": ""
+  }
+]
