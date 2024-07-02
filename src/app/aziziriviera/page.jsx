@@ -96,7 +96,7 @@ export default function BlogDetails() {
                 </div>
                 <div className="">
                   <p className="mt-2">
-                    Azizi Riviera stands as a premier residential community
+                    Azizi Riviera stands as premier residential community
                     developed by Azizi Developments in Meydan District One,
                     Mohammed Bin Rashid City (MBR City), Dubai. It seamlessly
                     combines French Mediterranean design with contemporary
