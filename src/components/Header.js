@@ -38,7 +38,7 @@ export default function Header() {
         <div className="container-lg mt-5 nav-container position-absolute hidden md:block lg:block ">
           <nav className="custom-navbar justify-center  navbar-expand-lg ml-16">
             <div>
-              <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center h-20 bg-gray-900">
+              <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center h-20 ">
                 <ul className="flex items-center justify-center gap-x-5">
                   <li>
                     <Link
