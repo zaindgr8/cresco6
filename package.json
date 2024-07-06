@@ -29,7 +29,8 @@
     "react-icons": "^5.0.1",
     "react-owl-carousel": "^2.3.3",
     "react-select": "^5.7.7",
-    "react-sticky-box": "^2.0.4"
+    "react-sticky-box": "^2.0.4",
+    "react-whatsapp-widget": "^2.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",

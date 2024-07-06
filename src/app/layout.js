@@ -7,6 +7,7 @@ import ImportBs from './importBs';
 import localFont from "next/font/local"
 import Header from '@/components/Header';
 import { Open_Sans, Roboto_Mono } from "next/font/google";
+import Whatsapp from '@/components/whatsapp';
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -55,11 +56,12 @@ export default function RootLayout({ children }) {
       className={`${myFont.className} ${robotoReg.className} ${robotoThin.className} ${openSans.variable} ${robotoMono.variable} font-sans`}
     >
       <AOSInit />
-      
+
       <body>
-      <Header />
-      
+        <Header />
+
         <ImportBs />
+        <Whatsapp />
         <div>{children}</div>
       </body>
     </html>
