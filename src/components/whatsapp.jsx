@@ -6,7 +6,7 @@ const Whatsapp = () => {
   const handleClick = async () => {
     const phoneNumber = "+971585145243"; // Replace with your WhatsApp number
     const message =
-      "Hi there! I'm interested in learning more about DEVMATE Digital Marketing and Software Solutions. Could you please provide me with more details? Thanks!";
+      "Hello! I am interested in Dubai Real Estate, are you avaialble?";
     const encodedMessage = encodeURIComponent(message);
 
     // Determine if WhatsApp is installed
