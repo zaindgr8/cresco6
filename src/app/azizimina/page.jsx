@@ -8,7 +8,7 @@ import Map from "../crescoComponent/azizi-rivera_map";
 
 const questions = [
   // Replace with your questions
-  "What type of property Aziz Mina is?",
+  "What type of property Azizi Mina is?",
   "What amenities does Azizi Mina offer?",
   "Does Azizi Mina have a pool?",
   "How close is Azizi Mina to the beach?",
@@ -183,7 +183,7 @@ export default function BlogDetails() {
                       {/* Start Subtitle */}
                       <div className="bg-[#DAB852] d-inline-block rounded-pill section-header__subtitle text-capitalize text-gray-900">
                         <span className="font-bold text-xl">
-                          AZIZI RIVIERA - FEATURED PROPERTIES
+                          AZIZI MINA- AMENITIES
                         </span>
                       </div>
                       {/* /. End Subtitle */}
@@ -194,11 +194,11 @@ export default function BlogDetails() {
 
                 <div className="sub-title fs-16">
                   <p>
-                    The Azizi Riviera in Dubai is a multi-phase development with
-                    a Mediterranean theme offering thousands of residences,{" "}
-                    <br /> with phases 1 and 2 nearing completion and phases 3
-                    and 4 progressing towards their Q3 and Q4 2024 completion
-                    targets.
+                    Azizi Mina is designed in a way that attracts every type of
+                    lifestyle. With world-class amenities and facilities
+                    available right at your door and in your community, you get
+                    a premium chance to live a luxurious lifestyle in the most
+                    prestigious location, the Palm Jumeirah of Dubai.
                   </p>
                 </div>
                 {/* /.End Section Header Sub Title */}
