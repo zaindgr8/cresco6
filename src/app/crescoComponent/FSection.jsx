@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { FaArrowDown } from "react-icons/fa";
 import { IoMdArrowDropdownCircle } from "react-icons/io";
 
 
@@ -14,7 +13,7 @@ const FSection = () => {
       >
         <div>
           <Image
-            src="/assets/img/bg-cresco.jpg"
+            src="/assets/img/bg1.gif"
             layout="fill"
             alt="Hero GIF"
             className="h-100 w-100 object-fit-cover position-absolute oblique-image top-0 video"
