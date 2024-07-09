@@ -1,4 +1,3 @@
-
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -6,10 +5,18 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
+import { IoIosArrowDown } from "react-icons/io";
+
 export default function Header() {
   const [hasLogo, setHasLogo] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+  const [showProjectsSubmenu, setShowProjectsSubmenu] = useState(false);
+  const [showAziziSubmenu, setShowAziziSubmenu] = useState(false);
+
   const toggleMenu = () => setShowMenu(!showMenu);
+  const toggleProjectsSubmenu = () =>
+    setShowProjectsSubmenu(!showProjectsSubmenu);
+  const toggleAziziSubmenu = () => setShowAziziSubmenu(!showAziziSubmenu);
 
   const path = usePathname();
   useEffect(() => {
@@ -93,13 +100,74 @@ export default function Header() {
                       Properties
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      className="text-white text-xl hover:text-yellow-500"
-                      href="/#projects"
+                  <li className="relative">
+                    <span
+                      className="text-white text-xl hover:text-yellow-500 cursor-pointer flex flex-row justify-center items-center"
+                      onClick={toggleProjectsSubmenu}
                     >
-                      Projects
-                    </Link>
+                      Projects <IoIosArrowDown style={{ color: "#DEB657" }} />
+                    </span>
+                    {showProjectsSubmenu && (
+                      <ul className="absolute left-0 top-full mt-2 w-60 bg-white shadow-lg rounded-md">
+                        <li>
+                          <Link
+                            className="flex flex-row items-center gap-x-1 px-4 py-2 text-black font-bold hover:text-yellow-500"
+                            href="/azizidevelopments"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              toggleAziziSubmenu();
+                            }}
+                          >
+                            Azizi Developments
+                            <IoIosArrowDown style={{ color: "#DEB657" }} />
+                          </Link>
+                          {showAziziSubmenu && (
+                            <ul className="mt-2 ml-4 italic">
+                              <li>
+                                <Link
+                                  className="block px-4 py-2 text-black "
+                                  href="/azizidevelopments"
+                                >
+                                  About Azizi
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  className="block px-4 py-2 text-black hover:text-yellow-500"
+                                  href="/aziziriviera"
+                                >
+                                  Azizi Riveira
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  className="block px-4 py-2 text-black hover:text-yellow-500"
+                                  href="/azizivenice"
+                                >
+                                  Azizi Venice
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  className="block px-4 py-2 text-black hover:text-yellow-500"
+                                  href="/azizimina"
+                                >
+                                  Azizi Mina
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  className="block px-4 py-2 text-black hover:text-yellow-500"
+                                  href="/azizialiyah"
+                                >
+                                  Azizi Aliya
+                                </Link>
+                              </li>
+                            </ul>
+                          )}
+                        </li>
+                      </ul>
+                    )}
                   </li>
                   <li>
                     <Link
@@ -183,7 +251,6 @@ export default function Header() {
                     Teamwork
                   </Link>
                 </li>
-
                 <li>
                   <Link
                     className=" text-black text-xl hover:text-yellow-500"
@@ -193,12 +260,73 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className=" text-black text-xl hover:text-yellow-500"
-                    href="/#projects"
+                  <span
+                    className="text-xl text-black hover:text-yellow-500 cursor-pointer"
+                    onClick={toggleProjectsSubmenu}
                   >
                     Projects
-                  </Link>
+                  </span>
+                  {showProjectsSubmenu && (
+                    <ul className="absolute left-0 top-full mt-2 w-60 bg-white shadow-lg rounded-md">
+                      <li>
+                        <Link
+                          className="flex flex-row items-center gap-x-1 px-4 py-2 text-black font-bold hover:text-yellow-500"
+                          href="/azizidevelopments"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            toggleAziziSubmenu();
+                          }}
+                        >
+                          Azizi Developments
+                          <IoIosArrowDown style={{ color: "#DEB657" }} />
+                        </Link>
+                        {showAziziSubmenu && (
+                          <ul className="mt-2 ml-4 italic">
+                            <li>
+                              <Link
+                                className="block px-4 py-2 text-black "
+                                href="/azizidevelopments"
+                              >
+                                About Azizi
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="block px-4 py-2 text-black hover:text-yellow-500"
+                                href="/aziziriviera"
+                              >
+                                Azizi Riveira
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="block px-4 py-2 text-black hover:text-yellow-500"
+                                href="/azizivenice"
+                              >
+                                Azizi Venice
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="block px-4 py-2 text-black hover:text-yellow-500"
+                                href="/azizimina"
+                              >
+                                Azizi Mina
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="block px-4 py-2 text-black hover:text-yellow-500"
+                                href="/azizialiyah"
+                              >
+                                Azizi Aliya
+                              </Link>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li>
                   <Link
