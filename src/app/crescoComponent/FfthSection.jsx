@@ -15,21 +15,19 @@ const FfthSection = () => {
             <div className="section-header text-center mb-5">
               {/* Start Subtitle */}
               <div className="bg-[#DAB852] d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-                <span >Featured Properties</span>
+                <span>Featured Properties</span>
               </div>
               {/* /. End Subtitle */}
               {/* Start Section Header title */}
 
               <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-                <span >
-                  Take a Look at Our Assortments
-                </span>
+                <span>Take a Look at Our Assortments</span>
               </h2>
 
               {/* /.End Section Header Title */}
               {/* Start Section Header Sub Title */}
               <div className="sub-title fs-16">
-                <span >
+                <span>
                   Explore our extensive inventory of properties, from cozy
                   starter <br />
                   homes to luxurious estates.Begin your journey today and
@@ -46,7 +44,7 @@ const FfthSection = () => {
 
         <div className="row g-4 justify-content-center" id="properties">
           <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-            <span >Rent Properties</span>
+            <span>Rent Properties</span>
           </h2>
 
           <div
@@ -83,10 +81,10 @@ const FfthSection = () => {
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  <span >JVC</span>
+                  <span>JVC</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span >Dubai, UAE</span>
+                  <span>Dubai, UAE</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -142,10 +140,10 @@ const FfthSection = () => {
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  <span >Creek Harbour</span>
+                  <span>Creek Harbour</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span >Dubai, UAE</span>
+                  <span>Dubai, UAE</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -203,10 +201,10 @@ const FfthSection = () => {
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  <span >Dubai Science Park</span>
+                  <span>Dubai Science Park</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span >Dubai, UAE</span>
+                  <span>Dubai, UAE</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -248,7 +246,7 @@ const FfthSection = () => {
                   src="/assets/img/properties/04.jpg"
                   alt=""
                   className="img-fluid"
-                   loading="eager"
+                  loading="eager"
                 />
                 <div className="bg-[#DAB852] card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
                   For Rent
@@ -263,10 +261,10 @@ const FfthSection = () => {
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  <span >Arjan</span>
+                  <span>Arjan</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span >Dubai, UAE</span>
+                  <span>Dubai, UAE</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -295,7 +293,7 @@ const FfthSection = () => {
           <br />
 
           <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-            <span >Sale Properties</span>
+            <span>Sale Properties</span>
           </h2>
           <br />
           <br />
@@ -311,12 +309,12 @@ const FfthSection = () => {
               <Link href="/" className="card-link" />
               {/* /. End Card Link */}
               {/* Start Property Image */}
-              <div className="property-img card-image-hover overflow-hidden">
+              <div className="property-img card-image-hover overflow-hidden object-cover">
                 <Image
                   layout="fill"
                   src="/assets/img/properties/marina.jpeg"
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid object-cover"
                 />
                 <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
                   For Sale
@@ -333,10 +331,10 @@ const FfthSection = () => {
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  <span >Marina</span>
+                  <span>Marina</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span >Dubai, UAE</span>
+                  <span>Dubai, UAE</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -372,12 +370,12 @@ const FfthSection = () => {
               <Link href="/" className="card-link" />
               {/* /. End Card Link */}
               {/* Start Property Image */}
-              <div className="property-img card-image-hover overflow-hidden">
+              <div className="property-img card-image-hover overflow-hidden object-cover">
                 <Image
                   layout="fill"
                   src="/assets/img/properties/sportscity.jpeg"
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid object-cover"
                 />
                 <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
                   For Sale
@@ -392,10 +390,10 @@ const FfthSection = () => {
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  <span >Dubai Sports City</span>
+                  <span>Dubai Sports City</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span >Dubai, UAE</span>
+                  <span>Dubai, UAE</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
