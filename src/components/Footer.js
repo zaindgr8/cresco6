@@ -8,7 +8,7 @@ export default function Footer() {
     return (
       <>
         {/* Start Footer */}
-        <footer className="bg-gray-900 mt-14">
+        <footer className="bg-gray-900 mt-14 overflow-hidden h-screen">
           <div className="container pt-4">
             {/* Start Card Contact */}
             <div
