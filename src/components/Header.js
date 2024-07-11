@@ -12,6 +12,7 @@ export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const [showProjectsSubmenu, setShowProjectsSubmenu] = useState(false);
   const [showAziziSubmenu, setShowAziziSubmenu] = useState(false);
+    const [showEllingtonSubmenu, setShowEllingtonSubmenu] = useState(false);
 
   const toggleMenu = () => setShowMenu(!showMenu);
   const toggleProjectsSubmenu = () =>
@@ -100,6 +101,7 @@ export default function Header() {
                       Properties
                     </Link>
                   </li>
+
                   <li className="relative">
                     <span
                       className="text-white text-xl hover:text-yellow-500 cursor-pointer flex flex-row justify-center items-center"
@@ -107,6 +109,7 @@ export default function Header() {
                     >
                       Projects <IoIosArrowDown style={{ color: "#DEB657" }} />
                     </span>
+
                     {showProjectsSubmenu && (
                       <ul className="absolute left-0 top-full mt-2 w-60 bg-white shadow-lg rounded-md">
                         <li>
@@ -165,6 +168,26 @@ export default function Header() {
                               </li>
                             </ul>
                           )}
+                          <Link
+                            className="flex flex-row items-center gap-x-1 px-4 py-2 text-black font-bold hover:text-yellow-500"
+                            href="/ellington"
+                           
+                          >
+                            Ellington Properties
+                            {/* <IoIosArrowDown style={{ color: "#DEB657" }} /> */}
+                          </Link>
+                          {/* {showEllingtonSubmenu && (
+                            <ul className="mt-2 ml-4 italic">
+                              <li>
+                                <Link
+                                  className="block px-4 py-2 text-black "
+                                  href="/azizidevelopments"
+                                >
+                                  About Ellington
+                                </Link>
+                              </li>
+                            </ul>
+                          )} */}
                         </li>
                       </ul>
                     )}

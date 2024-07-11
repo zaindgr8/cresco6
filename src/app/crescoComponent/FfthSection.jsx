@@ -62,7 +62,7 @@ const FfthSection = () => {
               <div className="property-img card-image-hover overflow-hidden">
                 <Image
                   layout="fill"
-                  src="/assets/img/properties/jvc.jpeg"
+                  src="/assets/img/properties/jvcj.webp"
                   alt=""
                   className="img-fluid"
                 />
@@ -84,7 +84,7 @@ const FfthSection = () => {
                   <span>JVC</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span>Dubai, UAE</span>
+                  <span>July, 2024</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -123,7 +123,7 @@ const FfthSection = () => {
               <div className="property-img card-image-hover overflow-hidden">
                 <Image
                   layout="fill"
-                  src="/assets/img/properties/creekharbour.jpeg"
+                  src="/assets/img/properties/creekj.webp"
                   alt=""
                   className="img-fluid"
                 />
@@ -143,7 +143,7 @@ const FfthSection = () => {
                   <span>Creek Harbour</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span>Dubai, UAE</span>
+                  <span>July, 2024</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -182,7 +182,7 @@ const FfthSection = () => {
               <div className="property-img card-image-hover overflow-hidden">
                 <Image
                   layout="fill"
-                  src="/assets/img/properties/o3.jpg"
+                  src="/assets/img/properties/dubsj.jpeg"
                   alt=""
                   className="img-fluid"
                 />
@@ -204,7 +204,7 @@ const FfthSection = () => {
                   <span>Dubai Science Park</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span>Dubai, UAE</span>
+                  <span>July, 2024</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -243,7 +243,7 @@ const FfthSection = () => {
               <div className="property-img card-image-hover overflow-hidden">
                 <Image
                   layout="fill"
-                  src="/assets/img/properties/04.jpg"
+                  src="/assets/img/properties/arjanj.webp"
                   alt=""
                   className="img-fluid"
                   loading="eager"
@@ -264,7 +264,7 @@ const FfthSection = () => {
                   <span>Arjan</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span>Dubai, UAE</span>
+                  <span>July, 2024</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -312,7 +312,7 @@ const FfthSection = () => {
               <div className="property-img card-image-hover overflow-hidden object-cover">
                 <Image
                   layout="fill"
-                  src="/assets/img/properties/marina.jpeg"
+                  src="/assets/img/properties/marinaj1.webp"
                   alt=""
                   className="img-fluid object-cover"
                 />
@@ -334,7 +334,7 @@ const FfthSection = () => {
                   <span>Marina</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span>Dubai, UAE</span>
+                  <span>July, 2024</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -373,7 +373,7 @@ const FfthSection = () => {
               <div className="property-img card-image-hover overflow-hidden object-cover">
                 <Image
                   layout="fill"
-                  src="/assets/img/properties/sportscity.jpeg"
+                  src="/assets/img/properties/sportsj.jpg"
                   alt=""
                   className="img-fluid object-cover"
                 />
@@ -393,7 +393,7 @@ const FfthSection = () => {
                   <span>Dubai Sports City</span>
                 </h4>
                 <div className="card-property-description mb-3">
-                  <span>Dubai, UAE</span>
+                  <span>July, 2024</span>
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
