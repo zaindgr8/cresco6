@@ -51,6 +51,76 @@ const Carousel = () => {
           <div className="w-full h-[65vh] overflow-hidden">
             <Image
               layout="responsive"
+              src="/assets/img/avatar/hna.png"
+              className=" object-cover"
+              alt=""
+              width={100}
+              height={100}
+              loading="eager"
+            />
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+
+        <div className="flex items-center flex-col">
+          <h5 className="mt-3 mb-1">
+            <Link href="/">
+              <span>Hina Rehman</span>
+            </Link>
+          </h5>
+          <div className="flex items-center gap-x-2">
+            <PiBriefcaseFill />
+            HR & Public Relations
+          </div>
+          <div className="text-sm flex gap-x-2 items-center">
+            <FaPhone />
+            +971 55 149 0347
+          </div>
+        </div>
+      </div>
+      {/* /.End Avatar Info */}
+
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[65vh] overflow-hidden">
+            <Image
+              layout="responsive"
+              src="/assets/img/avatar/akrm.png"
+              className=" object-cover"
+              alt=""
+              width={100}
+              height={100}
+              loading="eager"
+            />
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+
+        <div className="flex items-center flex-col">
+          <h5 className="mt-3 mb-1">
+            <Link href="/">
+              <span>Omer Akram</span>
+            </Link>
+          </h5>
+          <div className="flex items-center gap-x-2">
+            <PiBriefcaseFill />
+            Sales Manager
+          </div>
+          <div className="text-sm flex gap-x-2 items-center">
+            <FaPhone />
+            +971 58 525 1995
+          </div>
+        </div>
+      </div>
+      {/* /.End Avatar Info */}
+
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[65vh] overflow-hidden">
+            <Image
+              layout="responsive"
               src="/assets/img/avatar/1.jpg"
               className=" object-cover"
               alt=""
@@ -77,9 +147,9 @@ const Carousel = () => {
             +971521307749
           </div>
         </div>
-
-        {/* /.End Avatar Info */}
       </div>
+      {/* /.End Avatar Info */}
+
       {/* /.End Grid Post */}
       {/* Start Grid Post */}
       <div className="team-member">
