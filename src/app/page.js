@@ -12,13 +12,13 @@ export default function HomeTwo() {
   return (
     <>
       <Layout>
-        {/* <FSection />
+        <FSection />
         <Ssection />
         <FfthSection />
         <Frthsection />
         <Testimonial />
         <TSection />
-        <CeoMessage /> */}
+        <CeoMessage />
       </Layout>
     </>
   );
