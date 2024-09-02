@@ -11,7 +11,7 @@ import FSection from "@/app/crescoComponent/FSection";
 export default function HomeTwo() {
   return (
     <>
-      {/* <Layout>
+      <Layout>
         <FSection />
         <Ssection />
         <FfthSection />
@@ -19,7 +19,7 @@ export default function HomeTwo() {
         <Testimonial />
         <TSection />
         <CeoMessage />
-      </Layout> */}
+      </Layout>
     </>
   );
 }
